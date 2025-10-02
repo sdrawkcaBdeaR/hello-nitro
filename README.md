@@ -26,7 +26,7 @@ You can now interact with this as if it were a dumb web server:
 ```
 $ curl localhost
 <xmp>
-Hello World
+Hello Nitro
 ...octo...
 ```
 
