@@ -1,6 +1,6 @@
 FROM busybox:latest
 ENV PORT=8008
-LABEL maintainer="C_Nit.Ro"
+LABEL maintainer="c_nit.ro"
 
 COPY index.html /nitro/index.html
 
