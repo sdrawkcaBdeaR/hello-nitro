@@ -22,7 +22,7 @@ jobs:
         images: cnitinrohit/hello-nitro
         tags: |
           type=raw,value=0.${{ github.run_number }}
-          type=sha
+          type=raw,value=latest
 
     - name: DockerHub login
       uses: docker/login-action@v3
